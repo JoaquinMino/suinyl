@@ -13,7 +13,7 @@ html {
 body {
   background: var(--bg);
   color: var(--text);
-  padding-top: 72px;
+  padding-top: 40px;
 }
 
 a {
@@ -30,7 +30,7 @@ a {
 }
 
 .navbar {
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(6px);
   background: rgba(11, 11, 13, 0.65);
   border-bottom: 1px solid var(--border);
 }
@@ -148,7 +148,7 @@ a {
 @keyframes heroEnter {
   from {
     opacity: 0;
-    transform: translateY(10px);
+    transform: translateY(80px);
   }
   to {
     opacity: 1;
@@ -157,7 +157,7 @@ a {
 }
 @keyframes heroZoom {
   from {
-    transform: scale(1.06);
+    transform: scale(1.11);
   }
   to {
     transform: scale(1);
