@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Suinyl | Música</title>
+  <meta name="description" content="Suinyl - Música, tracks y redes." />
+
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+
+  <!-- Bootstrap Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+  />
+
+  <!-- Tu CSS (compilado desde SCSS) -->
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <header class="site-header fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand fw-semibold" href="#inicio">Suinyl</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain"
+          aria-controls="navMain" aria-expanded="false" aria-label="Abrir menú">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div id="navMain" class="collapse navbar-collapse">
+          <ul class="navbar-nav ms-auto gap-lg-2">
+            <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#musica">Música</a></li>
+            <li class="nav-item"><a class="nav-link" href="#bio">Bio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#redes">Redes</a></li>
+            <li class="nav-item">
+              <a class="btn btn-sm btn-outline-light ms-lg-2" target="_blank" rel="noopener"
+                 href="https://soundcloud.com/suinyl">
+                SoundCloud
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <main id="inicio" class="hero">
+    <div class="hero-bg">
+      <img src="assets/hero.jpg" alt="Suinyl" />
+    </div>
+
+    <div class="hero-overlay"></div>
+
+    <div class="container hero-content">
+      <div class="row align-items-end">
+        <div class="col-12 col-lg-8">
+          <p class="hero-kicker mb-2">DJ / Producer</p>
+          <h1 class="hero-title mb-3">Suinyl</h1>
+          <p class="hero-subtitle mb-4">
+            Sets, edits y releases. Escuchá lo nuevo y lo más escuchado.
+          </p>
+
+          <div class="d-flex gap-2 flex-wrap">
+            <a class="btn btn-light" href="#musica">Escuchar</a>
+            <a class="btn btn-outline-light" target="_blank" rel="noopener" href="https://soundcloud.com/suinyl">
+              Ver perfil
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <a class="hero-scroll" href="#musica" aria-label="Bajar a música">
+      <i class="bi bi-chevron-down"></i>
+    </a>
+  </main>
+
+  <!-- MÚSICA -->
+  <section id="musica" class="section container py-5">
+    <div class="d-flex align-items-center justify-content-between flex-wrap gap-2 mb-4">
+      <div>
+        <h2 class="mb-1">Música</h2>
+        <p class="text-secondary mb-0">Popular Tracks y Most Recent</p>
+      </div>
+
+      <a class="btn btn-outline-light" target="_blank" rel="noopener" href="https://soundcloud.com/suinyl">
+        Ver todo en SoundCloud
+      </a>
+    </div>
+
+    <div class="row g-4">
+      <!-- Popular -->
+      <div class="col-12 col-lg-6">
+        <div class="panel">
+          <h3 class="h5 mb-3">Popular Tracks</h3>
+
+          <div class="track mb-4">
+            <div class="d-flex align-items-center justify-content-between gap-2 mb-2">
+              <span class="fw-semibold">Tu Actitud (Suinyl Edit)</span>
+              <a class="link-light small" target="_blank" rel="noopener"
+                href="https://soundcloud.com/suinyl/ricardo-villalobos-tu-actitud-suinyl-edit">
+                Abrir <i class="bi bi-box-arrow-up-right"></i>
+              </a>
+            </div>
+            <iframe
+              width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
+              src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/suinyl/ricardo-villalobos-tu-actitud-suinyl-edit&color=%23000000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
+            </iframe>
+          </div>
+
+          <div class="track mb-4">
+            <div class="d-flex align-items-center justify-content-between gap-2 mb-2">
+              <span class="fw-semibold">Bad Habits</span>
+              <a class="link-light small" target="_blank" rel="noopener"
+                href="https://soundcloud.com/suinyl/bad-habits">
+                Abrir <i class="bi bi-box-arrow-up-right"></i>
+              </a>
+            </div>
+            <iframe
+              width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
+              src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/suinyl/bad-habits&color=%23000000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
+            </iframe>
+          </div>
+
+          <div class="track">
+            <div class="d-flex align-items-center justify-content-between gap-2 mb-2">
+              <span class="fw-semibold">What They Talk</span>
+              <a class="link-light small" target="_blank" rel="noopener"
+                href="https://soundcloud.com/suinyl/what-they-talk">
+                Abrir <i class="bi bi-box-arrow-up-right"></i>
+              </a>
+            </div>
+            <iframe
+              width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
+              src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/suinyl/what-they-talk&color=%23000000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
+            </iframe>
+          </div>
+        </div>
+      </div>
+
+      <!-- Recent -->
+      <div class="col-12 col-lg-6">
+        <div class="panel">
+          <h3 class="h5 mb-3">Most Recent</h3>
+
+          <div class="track mb-4">
+            <div class="d-flex align-items-center justify-content-between gap-2 mb-2">
+              <span class="fw-semibold">Bad Habits</span>
+              <a class="link-light small" target="_blank" rel="noopener"
+                href="https://soundcloud.com/suinyl/bad-habits">
+                Abrir <i class="bi bi-box-arrow-up-right"></i>
+              </a>
+            </div>
+            <iframe
+              width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
+              src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/suinyl/bad-habits&color=%23000000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
+            </iframe>
+          </div>
+
+          <div class="track">
+            <div class="d-flex align-items-center justify-content-between gap-2 mb-2">
+              <span class="fw-semibold">What They Talk</span>
+              <a class="link-light small" target="_blank" rel="noopener"
+                href="https://soundcloud.com/suinyl/what-they-talk">
+                Abrir <i class="bi bi-box-arrow-up-right"></i>
+              </a>
+            </div>
+            <iframe
+              width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
+              src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/suinyl/what-they-talk&color=%23000000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BIO -->
+  <section id="bio" class="section container py-5">
+    <div class="row g-4 align-items-center">
+      <div class="col-12 col-lg-6">
+        <h2 class="mb-3">Bio</h2>
+        <p class="text-secondary mb-3">
+          Acá podés poner una descripción corta: estilo, ciudades donde tocó, influencias, etc.
+        </p>
+        <p class="mb-0">
+          Para bookings/colabs:
+          <a class="link-light" href="mailto:booking@suinyl.com">booking@suinyl.com</a>
+          <!-- Cambiá el mail cuando tengas uno real -->
+        </p>
+      </div>
+
+      <div class="col-12 col-lg-6">
+        <div class="panel">
+          <h3 class="h6 text-uppercase text-secondary mb-3">Highlights</h3>
+          <ul class="list-unstyled mb-0 d-grid gap-2">
+            <li class="d-flex gap-2"><i class="bi bi-check2"></i> Releases y edits</li>
+            <li class="d-flex gap-2"><i class="bi bi-check2"></i> Sets / Live sessions</li>
+            <li class="d-flex gap-2"><i class="bi bi-check2"></i> Bookings / Colabs</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REDES -->
+  <footer id="redes" class="footer py-5">
+    <div class="container">
+      <div class="d-flex align-items-center justify-content-between flex-wrap gap-3 mb-4">
+        <div>
+          <h2 class="h4 mb-1">Redes</h2>
+          <p class="text-secondary mb-0">Seguime y escuchá lo último</p>
+        </div>
+        <a class="btn btn-outline-light" target="_blank" rel="noopener" href="https://soundcloud.com/suinyl">
+          SoundCloud <i class="bi bi-box-arrow-up-right"></i>
+        </a>
+      </div>
+
+      <div class="d-flex gap-3 flex-wrap">
+        <!-- Cambiá los href cuando tengas los links reales -->
+        <a class="social" target="_blank" rel="noopener" href="https://soundcloud.com/suinyl" aria-label="SoundCloud">
+          <i class="bi bi-soundwave"></i>
+        </a>
+        <a class="social" target="_blank" rel="noopener" href="#" aria-label="Instagram">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a class="social" target="_blank" rel="noopener" href="#" aria-label="YouTube">
+          <i class="bi bi-youtube"></i>
+        </a>
+        <a class="social" target="_blank" rel="noopener" href="#" aria-label="X">
+          <i class="bi bi-twitter-x"></i>
+        </a>
+      </div>
+
+      <hr class="border-secondary my-4" />
+      <p class="text-secondary small mb-0">© <span id="year"></span> Suinyl</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Tu JS -->
+  <script src="js/main.js"></script>
+</body>
+</html>
